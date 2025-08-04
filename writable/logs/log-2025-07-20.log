@@ -1,0 +1,665 @@
+DEBUG - 2025-07-20 03:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 03:54:18 --> CSRF token verified.
+DEBUG - 2025-07-20 03:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 03:54:55 --> CSRF token verified.
+DEBUG - 2025-07-20 03:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 03:56:02 --> CSRF token verified.
+DEBUG - 2025-07-20 03:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:56:06 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 03:56:19 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":165,"name":"JAYAPURA"},{"id":166,"name":"BIAK NUMFOR"},{"id":167,"name":"MERAUKE"},{"id":168,"name":"NABIRE"},{"id":169,"name":"DOGIYAI"},{"id":171,"name":"KEPULAUAN YAPEN"},{"id":172,"name":"JAYAWIJAYA"},{"id":174,"name":"LANNY JAYA"},{"id":175,"name":"YALIMO"},{"id":176,"name":"NDUGA"},{"id":177,"name":"MAMBERAMO TENGAH"},{"id":178,"name":"ASMAT"},{"id":180,"name":"BOVEN DIGOEL"},{"id":181,"name":"KEEROM"},{"id":183,"name":"MAPPI"},{"id":184,"name":"INTAN JAYA"},{"id":185,"name":"PANIAI"},{"id":186,"name":"DEIYAI"},{"id":187,"name":"PEGUNUNGAN BINTANG"},{"id":188,"name":"PUNCAK JAYA"},{"id":189,"name":"PUNCAK"},{"id":190,"name":"SARMI"},{"id":192,"name":"SUPIORI"},{"id":193,"name":"TOLIKARA"},{"id":195,"name":"WAROPEN"},{"id":196,"name":"YAHUKIMO"},{"id":198,"name":"MAMBERAMO RAYA"},{"id":595,"name":"MIMIKA"}]}
+DEBUG - 2025-07-20 03:56:28 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"J&T Express","code":"jnt","service":"EZ","description":"Reguler","cost":289000,"etd":""}]}
+INFO - 2025-07-20 03:56:33 --> CSRF token verified.
+DEBUG - 2025-07-20 03:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 03:59:01 --> CSRF token verified.
+DEBUG - 2025-07-20 03:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 03:59:03 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 03:59:07 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":256,"name":"JEMBER"},{"id":257,"name":"BANYUWANGI"},{"id":258,"name":"BONDOWOSO"},{"id":289,"name":"KEDIRI"},{"id":353,"name":"MADIUN"},{"id":355,"name":"MAGETAN"},{"id":357,"name":"NGAWI"},{"id":359,"name":"PACITAN"},{"id":360,"name":"PONOROGO"},{"id":388,"name":"MOJOKERTO"},{"id":389,"name":"JOMBANG"},{"id":390,"name":"NGANJUK"},{"id":391,"name":"MALANG"},{"id":392,"name":"BLITAR"},{"id":393,"name":"BATU"},{"id":394,"name":"PROBOLINGGO"},{"id":395,"name":"LUMAJANG"},{"id":396,"name":"SITUBONDO"},{"id":531,"name":"PASURUAN"},{"id":566,"name":"BOJONEGORO"},{"id":577,"name":"SURABAYA"},{"id":578,"name":"GRESIK"},{"id":579,"name":"LAMONGAN"},{"id":580,"name":"BANGKALAN"},{"id":581,"name":"PAMEKASAN"},{"id":582,"name":"SAMPANG"},{"id":583,"name":"SIDOARJO"},{"id":584,"name":"SUMENEP"},{"id":585,"name":"TUBAN"},{"id":586,"name":"TULUNGAGUNG"},{"id":587,"name":"TRENGGALEK"}]}
+DEBUG - 2025-07-20 03:59:20 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"J&T Express","code":"jnt","service":"EZ","description":"Reguler","cost":86000,"etd":""}]}
+INFO - 2025-07-20 03:59:37 --> CSRF token verified.
+DEBUG - 2025-07-20 03:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:00:56 --> CSRF token verified.
+DEBUG - 2025-07-20 04:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:03:38 --> CSRF token verified.
+DEBUG - 2025-07-20 04:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:05:04 --> CSRF token verified.
+DEBUG - 2025-07-20 04:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:29:56 --> CSRF token verified.
+DEBUG - 2025-07-20 04:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:29:58 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 04:30:03 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":143,"name":"CILEGON"},{"id":144,"name":"PANDEGLANG"},{"id":147,"name":"LEBAK"},{"id":148,"name":"SERANG"},{"id":592,"name":"TANGERANG"},{"id":594,"name":"TANGERANG SELATAN"}]}
+DEBUG - 2025-07-20 04:30:07 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"POS Indonesia (POS)","code":"pos","service":"Pos Reguler","description":"240","cost":185000,"etd":"26 day"}]}
+INFO - 2025-07-20 04:30:10 --> CSRF token verified.
+DEBUG - 2025-07-20 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:36:56 --> CSRF token verified.
+DEBUG - 2025-07-20 04:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:43:14 --> CSRF token verified.
+DEBUG - 2025-07-20 04:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:44:55 --> CSRF token verified.
+DEBUG - 2025-07-20 04:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:50:01 --> CSRF token verified.
+INFO - 2025-07-20 04:51:31 --> CSRF token verified.
+DEBUG - 2025-07-20 04:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-20 04:52:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: cek-resi/lacak]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('cek-resi/lacak', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-20 04:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:53:06 --> CSRF token verified.
+DEBUG - 2025-07-20 04:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-20 04:56:07 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: cek-resi/lacak]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('cek-resi/lacak', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-20 04:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 04:56:18 --> CSRF token verified.
+DEBUG - 2025-07-20 04:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 04:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:02:33 --> CSRF token verified.
+DEBUG - 2025-07-20 05:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:02:38 --> CSRF token verified.
+DEBUG - 2025-07-20 05:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:02:42 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 05:03:07 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":149,"name":"CILACAP"},{"id":383,"name":"MAGELANG"},{"id":384,"name":"KEBUMEN"},{"id":385,"name":"WONOSOBO"},{"id":386,"name":"PURWOREJO"},{"id":387,"name":"TEMANGGUNG"},{"id":539,"name":"SURAKARTA"},{"id":540,"name":"BOYOLALI"},{"id":541,"name":"KARANGANYAR"},{"id":542,"name":"KLATEN"},{"id":543,"name":"SRAGEN"},{"id":544,"name":"SUKOHARJO"},{"id":545,"name":"WONOGIRI"},{"id":560,"name":"SEMARANG"},{"id":561,"name":"JEPARA"},{"id":562,"name":"KUDUS"},{"id":563,"name":"PEKALONGAN"},{"id":564,"name":"BATANG"},{"id":565,"name":"BLORA"},{"id":567,"name":"DEMAK"},{"id":568,"name":"KENDAL"},{"id":569,"name":"PATI"},{"id":570,"name":"PEMALANG"},{"id":571,"name":"GROBOGAN"},{"id":572,"name":"REMBANG"},{"id":573,"name":"SALATIGA"},{"id":575,"name":"PURBALINGGA"},{"id":576,"name":"BANJARNEGARA"},{"id":588,"name":"TEGAL"},{"id":589,"name":"BREBES"},{"id":591,"name":"BANYUMAS"}]}
+ERROR - 2025-07-20 05:03:19 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:03:42 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":165000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR<130","description":"JNE Trucking","cost":2000000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>130","description":"JNE Trucking","cost":4150000,"etd":"8 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>200","description":"JNE Trucking","cost":3800000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":42000,"etd":"5 day"}]}
+ERROR - 2025-07-20 05:03:48 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:03:53 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:03:57 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:03:57 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:04:04 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+ERROR - 2025-07-20 05:04:09 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:04:11 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:04:14 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"POS Indonesia (POS)","code":"pos","service":"Pos Reguler","description":"240","cost":9000,"etd":"2 day"},{"name":"POS Indonesia (POS)","code":"pos","service":"Pos Nextday","description":"447","cost":13000,"etd":"1 day"}]}
+DEBUG - 2025-07-20 05:04:32 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":135,"name":"JAKARTA BARAT"},{"id":136,"name":"JAKARTA SELATAN"},{"id":137,"name":"JAKARTA PUSAT"},{"id":138,"name":"JAKARTA UTARA"},{"id":139,"name":"JAKARTA TIMUR"},{"id":141,"name":"KEPULAUAN SERIBU"}]}
+ERROR - 2025-07-20 05:04:36 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:04:46 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":146000,"etd":"8 day"}]}
+INFO - 2025-07-20 05:04:49 --> CSRF token verified.
+DEBUG - 2025-07-20 05:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:10:47 --> CSRF token verified.
+INFO - 2025-07-20 05:10:47 --> CSRF token verified.
+ERROR - 2025-07-20 05:10:47 --> Error saat memindahkan pesanan: Pesanan tidak ditemukan.
+DEBUG - 2025-07-20 05:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:11:07 --> CSRF token verified.
+DEBUG - 2025-07-20 05:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:11:56 --> CSRF token verified.
+DEBUG - 2025-07-20 05:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:12:34 --> CSRF token verified.
+DEBUG - 2025-07-20 05:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:13:54 --> CSRF token verified.
+DEBUG - 2025-07-20 05:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:14:13 --> CSRF token verified.
+DEBUG - 2025-07-20 05:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:14:26 --> CSRF token verified.
+DEBUG - 2025-07-20 05:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:21:55 --> CSRF token verified.
+DEBUG - 2025-07-20 05:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:22:00 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 05:22:02 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":259,"name":"YOGYAKARTA"},{"id":260,"name":"BANTUL"},{"id":261,"name":"SLEMAN"},{"id":262,"name":"KULON PROGO"},{"id":263,"name":"GUNUNG KIDUL"}]}
+ERROR - 2025-07-20 05:22:08 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:26:21 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:26:23 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:26:25 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 05:26:27 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":1,"name":"MATARAM"},{"id":2,"name":"BIMA"},{"id":3,"name":"DOMPU"},{"id":4,"name":"LOMBOK TENGAH"},{"id":5,"name":"LOMBOK TIMUR"},{"id":7,"name":"SUMBAWA"},{"id":8,"name":"LOMBOK BARAT"},{"id":9,"name":"LOMBOK UTARA"},{"id":10,"name":"SUMBAWA BARAT"}]}
+ERROR - 2025-07-20 05:26:32 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:26:38 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":45000,"etd":"4 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR<130","description":"JNE Trucking","cost":350000,"etd":"5 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>130","description":"JNE Trucking","cost":500000,"etd":"5 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>200","description":"JNE Trucking","cost":600000,"etd":"4 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":14000,"etd":"2 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"YES","description":"Yakin Esok Sampai","cost":18000,"etd":"1 day"}]}
+ERROR - 2025-07-20 05:27:20 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:27:46 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+ERROR - 2025-07-20 05:27:50 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+ERROR - 2025-07-20 05:27:53 --> [Komerce API] Cek ongkir error: 22 : The requested URL returned error: 404
+DEBUG - 2025-07-20 05:27:56 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"POS Indonesia (POS)","code":"pos","service":"Pos Reguler","description":"240","cost":9000,"etd":"10 day"},{"name":"POS Indonesia (POS)","code":"pos","service":"Pos Nextday","description":"447","cost":13000,"etd":"1 day"}]}
+DEBUG - 2025-07-20 05:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:33:44 --> CSRF token verified.
+DEBUG - 2025-07-20 05:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 05:47:41 --> CSRF token verified.
+DEBUG - 2025-07-20 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 05:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:03:33 --> CSRF token verified.
+DEBUG - 2025-07-20 06:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:03:59 --> CSRF token verified.
+DEBUG - 2025-07-20 06:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:04:28 --> CSRF token verified.
+DEBUG - 2025-07-20 06:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:04:36 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 06:04:41 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":1,"name":"MATARAM"},{"id":2,"name":"BIMA"},{"id":3,"name":"DOMPU"},{"id":4,"name":"LOMBOK TENGAH"},{"id":5,"name":"LOMBOK TIMUR"},{"id":7,"name":"SUMBAWA"},{"id":8,"name":"LOMBOK BARAT"},{"id":9,"name":"LOMBOK UTARA"},{"id":10,"name":"SUMBAWA BARAT"}]}
+DEBUG - 2025-07-20 06:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:06:23 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 06:06:24 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 06:06:43 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":81000,"etd":"6 day"}]}
+INFO - 2025-07-20 06:07:27 --> CSRF token verified.
+DEBUG - 2025-07-20 06:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-20 06:08:28 --> [BREVO] Stock notification email failed: 28 : Operation timed out after 5006 milliseconds with 0 bytes received
+DEBUG - 2025-07-20 06:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:15:57 --> CSRF token verified.
+DEBUG - 2025-07-20 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:16:08 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 06:16:10 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 06:16:15 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":146000,"etd":"11 day"}]}
+INFO - 2025-07-20 06:16:18 --> CSRF token verified.
+DEBUG - 2025-07-20 06:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:16:25 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752992178-5 with status: pending
+INFO - 2025-07-20 06:16:53 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752992178-5 with status: settlement
+INFO - 2025-07-20 06:16:53 --> [Midtrans Notif] Payment success for Order ID: OTELA-1752992178-5. Processing stock reduction.
+DEBUG - 2025-07-20 06:16:53 --> [Stock Check] For Order ID OTELA-1752992178-5, Bahan 'Singkong': Jumlah Lama = 3000, Jumlah Baru = 1000, Status Baru = Hampir Habis.
+CRITICAL - 2025-07-20 06:16:53 --> [Stock Alert] Condition met for 'Singkong'. Attempting to send email notification.
+INFO - 2025-07-20 06:16:55 --> [Stock Alert] Email notification for 'Singkong' sent successfully to Brevo API.
+DEBUG - 2025-07-20 06:16:55 --> [Stock Check] For Order ID OTELA-1752992178-5, Bahan 'Daun Bawang': Jumlah Lama = 88743699, Jumlah Baru = 88743199, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:16:55 --> [Stock Check] For Order ID OTELA-1752992178-5, Bahan 'Cikur': Jumlah Lama = 61503087, Jumlah Baru = 61502887, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:16:55 --> [Stock Check] For Order ID OTELA-1752992178-5, Bahan 'Garam': Jumlah Lama = 9985660, Jumlah Baru = 9985260, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:38:13 --> CSRF token verified.
+DEBUG - 2025-07-20 06:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:38:17 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 06:38:19 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 06:38:23 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":146000,"etd":"11 day"}]}
+INFO - 2025-07-20 06:38:25 --> CSRF token verified.
+DEBUG - 2025-07-20 06:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:38:35 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752993506-5 with status: pending
+INFO - 2025-07-20 06:39:04 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752993506-5 with status: settlement
+INFO - 2025-07-20 06:39:04 --> [Midtrans Notif] Payment success for Order ID: OTELA-1752993506-5. Processing stock reduction.
+DEBUG - 2025-07-20 06:39:04 --> [Stock Check] For Order ID OTELA-1752993506-5, Bahan 'Singkong': Jumlah Lama = 3000, Jumlah Baru = 1500, Status Baru = Hampir Habis.
+CRITICAL - 2025-07-20 06:39:04 --> [Stock Alert] Condition met for 'Singkong'. Attempting to send email notification.
+INFO - 2025-07-20 06:39:05 --> [Stock Alert] Email notification for 'Singkong' sent successfully to Brevo API.
+DEBUG - 2025-07-20 06:39:05 --> [Stock Check] For Order ID OTELA-1752993506-5, Bahan 'Daun Bawang': Jumlah Lama = 88743199, Jumlah Baru = 88742749, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:39:05 --> [Stock Check] For Order ID OTELA-1752993506-5, Bahan 'Cikur': Jumlah Lama = 61502887, Jumlah Baru = 61502737, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:39:05 --> [Stock Check] For Order ID OTELA-1752993506-5, Bahan 'Garam': Jumlah Lama = 9985260, Jumlah Baru = 9984960, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:41:35 --> CSRF token verified.
+DEBUG - 2025-07-20 06:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 06:42:00 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 06:42:02 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 06:42:06 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":165000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR<130","description":"JNE Trucking","cost":2000000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>130","description":"JNE Trucking","cost":4150000,"etd":"8 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR>200","description":"JNE Trucking","cost":3800000,"etd":"10 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"REG","description":"Layanan Reguler","cost":42000,"etd":"5 day"}]}
+INFO - 2025-07-20 06:42:10 --> CSRF token verified.
+DEBUG - 2025-07-20 06:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 06:42:17 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752993730-5 with status: pending
+INFO - 2025-07-20 06:42:35 --> [Midtrans Notif] Received notification for Order ID: OTELA-1752993730-5 with status: settlement
+INFO - 2025-07-20 06:42:35 --> [Midtrans Notif] Payment success for Order ID: OTELA-1752993730-5. Processing stock reduction.
+DEBUG - 2025-07-20 06:42:35 --> [Stock Check] For Order ID OTELA-1752993730-5, Bahan 'Singkong': Jumlah Lama = 3000, Jumlah Baru = 2000, Status Baru = Hampir Habis.
+CRITICAL - 2025-07-20 06:42:35 --> [Stock Alert] Condition met for 'Singkong'. Attempting to send email notification.
+INFO - 2025-07-20 06:42:36 --> [Stock Alert] Email notification for 'Singkong' sent successfully to Brevo API.
+DEBUG - 2025-07-20 06:42:36 --> [Stock Check] For Order ID OTELA-1752993730-5, Bahan 'Garam': Jumlah Lama = 9984960, Jumlah Baru = 9984800, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:42:36 --> [Stock Check] For Order ID OTELA-1752993730-5, Bahan 'Coklat': Jumlah Lama = 20018844, Jumlah Baru = 20018444, Status Baru = Tersedia.
+DEBUG - 2025-07-20 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:24:07 --> CSRF token verified.
+DEBUG - 2025-07-20 07:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:26:19 --> CSRF token verified.
+DEBUG - 2025-07-20 07:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:26:26 --> CSRF token verified.
+DEBUG - 2025-07-20 07:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:27:12 --> CSRF token verified.
+DEBUG - 2025-07-20 07:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:28:35 --> CSRF token verified.
+DEBUG - 2025-07-20 07:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:32:30 --> CSRF token verified.
+DEBUG - 2025-07-20 07:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:35:40 --> CSRF token verified.
+DEBUG - 2025-07-20 07:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:49:53 --> CSRF token verified.
+DEBUG - 2025-07-20 07:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:50:18 --> CSRF token verified.
+DEBUG - 2025-07-20 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:56:29 --> CSRF token verified.
+DEBUG - 2025-07-20 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:58:48 --> CSRF token verified.
+DEBUG - 2025-07-20 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 07:59:25 --> CSRF token verified.
+DEBUG - 2025-07-20 07:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 07:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:09:26 --> CSRF token verified.
+DEBUG - 2025-07-20 08:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:10:32 --> CSRF token verified.
+DEBUG - 2025-07-20 08:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:10:35 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:11:01 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":64,"name":"BENGKULU"},{"id":65,"name":"BENGKULU UTARA"},{"id":66,"name":"BENGKULU TENGAH"},{"id":67,"name":"REJANG LEBONG"},{"id":68,"name":"BENGKULU SELATAN"},{"id":69,"name":"KAUR"},{"id":70,"name":"KEPAHIANG"},{"id":71,"name":"LEBONG"},{"id":73,"name":"MUKO MUKO"},{"id":76,"name":"SELUMA"}]}
+DEBUG - 2025-07-20 08:11:03 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 08:11:10 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"CTC","description":"JNE City Courier","cost":14000,"etd":"2 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":115000,"etd":"6 day"}]}
+DEBUG - 2025-07-20 08:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:12:03 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:12:35 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:12:41 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:13:03 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 08:13:09 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"CTC","description":"JNE City Courier","cost":14000,"etd":"2 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":115000,"etd":"6 day"}]}
+INFO - 2025-07-20 08:13:24 --> CSRF token verified.
+DEBUG - 2025-07-20 08:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-20 08:13:25 --> mysqli_sql_exception: Unknown column 'Alamat' in 'field list' in C:\xampp\htdocs\otela\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\otela\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\otela\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\otela\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\otela\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\otela\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\otela\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\otela\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\otela\app\Controllers\Pemesanan.php(231): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\otela\system\CodeIgniter.php(933): App\Controllers\Pemesanan->checkout()
+#9 C:\xampp\htdocs\otela\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\xampp\htdocs\otela\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\otela\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\otela\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\otela\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-07-20 08:13:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Alamat' in 'field list'
+[Method: POST, Route: pemesanan/checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (:order_id:, :id_user:, :tanggal:, :total_harga:, :status:, :email_status:, :Alamat:, :Provinsi:, :Kota:, :ongkir_biaya:, :ongkir_layanan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pemesanan.php(231): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pemesanan->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-20 08:13:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Alamat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (\'OTELA-1752999205-7\', \'7\', \'2025-07-20 08:13:25\', 35000, \'pending\', \'menunggu\', \'bandung\', \'JAWA BARAT\', \'BANDUNG\', 14000, \'Jalur Nugraha Ekakurir (JNE) (JNE City Courier)\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (\'OTELA-1752999205-7\', \'7\', \'2025-07-20 08:13:25\', 35000, \'pending\', \'menunggu\', \'bandung\', \'JAWA BARAT\', \'BANDUNG\', 14000, \'Jalur Nugraha Ekakurir (JNE) (JNE City Courier)\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (:order_id:, :id_user:, :tanggal:, :total_harga:, :status:, :email_status:, :Alamat:, :Provinsi:, :Kota:, :ongkir_biaya:, :ongkir_layanan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pemesanan.php(231): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pemesanan->checkout()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-20 08:13:25 --> [Caused by] mysqli_sql_exception: Unknown column 'Alamat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (\'OTELA-1752999205-7\', \'7\', \'2025-07-20 08:13:25\', 35000, \'pending\', \'menunggu\', \'bandung\', \'JAWA BARAT\', \'BANDUNG\', 14000, \'Jalur Nugraha Ekakurir (JNE) (JNE City Courier)\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (\'OTELA-1752999205-7\', \'7\', \'2025-07-20 08:13:25\', 35000, \'pending\', \'menunggu\', \'bandung\', \'JAWA BARAT\', \'BANDUNG\', 14000, \'Jalur Nugraha Ekakurir (JNE) (JNE City Courier)\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (\'OTELA-1752999205-7\', \'7\', \'2025-07-20 08:13:25\', 35000, \'pending\', \'menunggu\', \'bandung\', \'JAWA BARAT\', \'BANDUNG\', 14000, \'Jalur Nugraha Ekakurir (JNE) (JNE City Courier)\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pemesanan` (`order_id`, `id_user`, `tanggal`, `total_harga`, `status`, `email_status`, `Alamat`, `Provinsi`, `Kota`, `ongkir_biaya`, `ongkir_layanan`) VALUES (:order_id:, :id_user:, :tanggal:, :total_harga:, :status:, :email_status:, :Alamat:, :Provinsi:, :Kota:, :ongkir_biaya:, :ongkir_layanan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pemesanan.php(231): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pemesanan->checkout()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-20 08:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:13:33 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:14:32 --> CSRF token verified.
+DEBUG - 2025-07-20 08:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:14:35 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 08:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:30:04 --> CSRF token verified.
+DEBUG - 2025-07-20 08:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:31:12 --> CSRF token verified.
+DEBUG - 2025-07-20 08:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 08:42:40 --> CSRF token verified.
+DEBUG - 2025-07-20 08:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 09:22:11 --> CSRF token verified.
+DEBUG - 2025-07-20 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 09:22:46 --> CSRF token verified.
+DEBUG - 2025-07-20 09:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 09:29:02 --> CSRF token verified.
+DEBUG - 2025-07-20 09:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 09:45:14 --> CSRF token verified.
+DEBUG - 2025-07-20 09:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 09:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 10:29:07 --> CSRF token verified.
+DEBUG - 2025-07-20 10:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 10:36:12 --> CSRF token verified.
+DEBUG - 2025-07-20 10:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:36:16 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 10:37:02 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 10:37:08 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"CTC","description":"JNE City Courier","cost":14000,"etd":"2 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":115000,"etd":"6 day"}]}
+DEBUG - 2025-07-20 10:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:37:22 --> Komerce API Provinces Response: {"meta":{"message":"Success Get Province","code":200,"status":"success"},"data":[{"id":1,"name":"NUSA TENGGARA BARAT (NTB)"},{"id":2,"name":"MALUKU"},{"id":3,"name":"KALIMANTAN SELATAN"},{"id":4,"name":"KALIMANTAN TENGAH"},{"id":5,"name":"JAWA BARAT"},{"id":6,"name":"BENGKULU"},{"id":7,"name":"KALIMANTAN TIMUR"},{"id":8,"name":"KEPULAUAN RIAU"},{"id":9,"name":"NANGGROE ACEH DARUSSALAM (NAD)"},{"id":10,"name":"DKI JAKARTA"},{"id":11,"name":"BANTEN"},{"id":12,"name":"JAWA TENGAH"},{"id":13,"name":"JAMBI"},{"id":14,"name":"PAPUA"},{"id":15,"name":"BALI"},{"id":16,"name":"SUMATERA UTARA"},{"id":17,"name":"GORONTALO"},{"id":18,"name":"JAWA TIMUR"},{"id":19,"name":"DI YOGYAKARTA"},{"id":20,"name":"SULAWESI TENGGARA"},{"id":21,"name":"NUSA TENGGARA TIMUR (NTT)"},{"id":22,"name":"SULAWESI UTARA"},{"id":23,"name":"SUMATERA BARAT"},{"id":24,"name":"BANGKA BELITUNG"},{"id":25,"name":"RIAU"},{"id":26,"name":"SUMATERA SELATAN"},{"id":27,"name":"SULAWESI TENGAH"},{"id":28,"name":"KALIMANTAN BARAT"},{"id":29,"name":"PAPUA BARAT"},{"id":30,"name":"LAMPUNG"},{"id":31,"name":"KALIMANTAN UTARA"},{"id":32,"name":"MALUKU UTARA"},{"id":33,"name":"SULAWESI SELATAN"},{"id":34,"name":"SULAWESI BARAT"}]}
+DEBUG - 2025-07-20 10:39:25 --> Komerce API Cities Response: {"meta":{"message":"Success Get City By Province ID","code":200,"status":"success"},"data":[{"id":55,"name":"BANDUNG"},{"id":56,"name":"CIMAHI"},{"id":57,"name":"SUMEDANG"},{"id":59,"name":"GARUT"},{"id":60,"name":"BANDUNG BARAT"},{"id":62,"name":"CIANJUR"},{"id":63,"name":"BEKASI"},{"id":77,"name":"BOGOR"},{"id":129,"name":"CIREBON"},{"id":131,"name":"INDRAMAYU"},{"id":132,"name":"KUNINGAN"},{"id":133,"name":"MAJALENGKA"},{"id":199,"name":"DEPOK"},{"id":329,"name":"KARAWANG"},{"id":532,"name":"PURWAKARTA"},{"id":533,"name":"SUBANG"},{"id":538,"name":"SUKABUMI"},{"id":632,"name":"TASIKMALAYA"},{"id":633,"name":"BANJAR"},{"id":634,"name":"CIAMIS"},{"id":635,"name":"PANGANDARAN"}]}
+DEBUG - 2025-07-20 10:39:30 --> Komerce API Cost Response: {"meta":{"message":"Success Calculate Domestic Shipping cost","code":200,"status":"success"},"data":[{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"CTC","description":"JNE City Courier","cost":14000,"etd":"2 day"},{"name":"Jalur Nugraha Ekakurir (JNE)","code":"jne","service":"JTR","description":"JNE Trucking","cost":115000,"etd":"6 day"}]}
+INFO - 2025-07-20 10:39:34 --> CSRF token verified.
+DEBUG - 2025-07-20 10:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 10:52:53 --> CSRF token verified.
+DEBUG - 2025-07-20 10:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-20 10:56:42 --> CSRF token verified.
+DEBUG - 2025-07-20 10:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-20 10:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
