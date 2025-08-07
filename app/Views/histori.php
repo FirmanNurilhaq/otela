@@ -4,6 +4,17 @@
 <main class="max-w-screen-xl mx-auto px-4 py-10">
     <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Riwayat Pesanan Anda</h1>
 
+    <!-- Notifikasi -->
+    <?php if (session()->getFlashdata('success')): ?>
+        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg" role="alert">
+            <?= session()->getFlashdata('success') ?>
+        </div>
+    <?php elseif (session()->getFlashdata('error')): ?>
+        <div class="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg" role="alert">
+            <?= session()->getFlashdata('error') ?>
+        </div>
+    <?php endif; ?>
+
     <div class="bg-white p-6 rounded-lg shadow-md">
         <div class="overflow-x-auto">
             <table class="min-w-full text-sm text-gray-700">
@@ -14,12 +25,14 @@
                         <th class="px-4 py-3">Detail Pesanan</th>
                         <th class="px-4 py-3">No. Resi</th>
                         <th class="px-4 py-3 text-right">Total</th>
+                        <!-- 1. Tambah kolom baru untuk Ulasan -->
+                        <th class="px-4 py-3 text-center">Ulasan</th>
                     </tr>
                 </thead>
                 <tbody class="divide-y">
                     <?php if (empty($histori)): ?>
                         <tr>
-                            <td colspan="5" class="text-center py-6 text-gray-500">Anda belum memiliki riwayat pesanan.</td>
+                            <td colspan="6" class="text-center py-6 text-gray-500">Anda belum memiliki riwayat pesanan.</td>
                         </tr>
                     <?php else: ?>
                         <?php foreach ($histori as $row): ?>
@@ -41,30 +54,18 @@
                                 <td class="px-4 py-3 align-top whitespace-nowrap">
                                     <?php if (!empty($row['resi']) && !empty($row['kurir'])): ?>
                                         <?php
-                                        // --- LOGIKA PENERJEMAHAN KURIR ---
                                         $kurirLengkap = strtoupper($row['kurir']);
                                         $kurirCode = '';
-
-                                        if (str_starts_with($kurirLengkap, 'JNE')) {
-                                            $kurirCode = 'jne';
-                                        } elseif (str_starts_with($kurirLengkap, 'J&T') || str_starts_with($kurirLengkap, 'JNT')) {
-                                            $kurirCode = 'jnt';
-                                        } elseif (str_starts_with($kurirLengkap, 'SICEPAT')) {
-                                            $kurirCode = 'sicepat';
-                                        } elseif (str_starts_with($kurirLengkap, 'POS')) {
-                                            $kurirCode = 'pos';
-                                        } elseif (str_starts_with($kurirLengkap, 'ANTERAJA')) {
-                                            $kurirCode = 'anteraja';
-                                        } elseif (str_starts_with($kurirLengkap, 'NINJA')) {
-                                            $kurirCode = 'ninja';
-                                        }
-                                        // Tambahkan kurir lain jika ada
+                                        if (str_starts_with($kurirLengkap, 'JNE')) { $kurirCode = 'jne'; } 
+                                        elseif (str_starts_with($kurirLengkap, 'J&T') || str_starts_with($kurirLengkap, 'JNT')) { $kurirCode = 'jnt'; } 
+                                        elseif (str_starts_with($kurirLengkap, 'SICEPAT')) { $kurirCode = 'sicepat'; } 
+                                        elseif (str_starts_with($kurirLengkap, 'POS')) { $kurirCode = 'pos'; } 
+                                        elseif (str_starts_with($kurirLengkap, 'ANTERAJA')) { $kurirCode = 'anteraja'; } 
+                                        elseif (str_starts_with($kurirLengkap, 'NINJA')) { $kurirCode = 'ninja'; }
                                         ?>
-
-                                        <!-- LINK DIUBAH UNTUK MENGIRIM KODE KURIR YANG BENAR -->
                                         <a href="<?= base_url('cek-resi?kurir=' . urlencode($kurirCode) . '&awb=' . urlencode($row['resi'])) ?>"
-                                            class="text-blue-600 hover:underline font-medium"
-                                            title="Lacak paket ini (<?= esc($row['kurir']) ?>)">
+                                           class="text-blue-600 hover:underline font-medium"
+                                           title="Lacak paket ini (<?= esc($row['kurir']) ?>)">
                                             <?= esc($row['resi']) ?>
                                         </a>
                                     <?php else: ?>
@@ -72,6 +73,18 @@
                                     <?php endif; ?>
                                 </td>
                                 <td class="px-4 py-3 align-top text-right font-medium">Rp<?= number_format($row['total_harga'], 0, ',', '.') ?></td>
+                                <!-- 2. Tambah sel baru untuk tombol Ulasan -->
+                                <td class="px-4 py-3 align-top text-center">
+                                    <?php if (isset($ulasanDiberikan[$row['id_riwayat']])): ?>
+                                        <button class="px-4 py-2 text-xs font-medium text-gray-500 bg-gray-200 rounded-md cursor-not-allowed" disabled>
+                                            Sudah Diulas
+                                        </button>
+                                    <?php else: ?>
+                                        <a href="<?= base_url('ulasan/tambah/' . $row['id_riwayat']) ?>" class="px-4 py-2 text-xs font-medium text-white bg-teal-600 rounded-md hover:bg-teal-700 transition">
+                                            Beri Ulasan
+                                        </a>
+                                    <?php endif; ?>
+                                </td>
                             </tr>
                         <?php endforeach; ?>
                     <?php endif; ?>

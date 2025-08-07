@@ -57,6 +57,9 @@ $routes->post('payment/notifikasi', 'Payment::notifikasi');
 $routes->post('payment/process', 'Pemesanan::Checkout');
 $routes->get('pesanan/status/(:num)', 'Pemesanan::status/$1');
 
+$routes->get('ulasan', 'Ulasan::index');
+$routes->get('ulasan/tambah/(:num)', 'Ulasan::tambah/$1');
+$routes->post('ulasan/simpan', 'Ulasan::simpan');
 /**
  * --------------------------------------------------------------------
  * Rute Pemesanan (Didefinisikan secara Eksplisit)

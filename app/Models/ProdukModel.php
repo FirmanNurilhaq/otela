@@ -9,5 +9,5 @@ class ProdukModel extends Model
     protected $table = 'produk';
     protected $primaryKey = 'id_produk';
     // 'harga' ditambahkan karena digunakan saat mengambil data produk
-    protected $allowedFields = ['nama_produk', 'ukuran', 'harga', 'gambar', 'bestseller'];
+    protected $allowedFields = ['nama_produk', 'ukuran', 'harga', 'gambar', 'bestseller','jumlah_terjual'];
 }

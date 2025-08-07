@@ -35,6 +35,8 @@
               <a class="text-gray-700 hover:text-teal-600 active:scale-95 transition duration-150"
                 href="<?= base_url('cek-resi') ?>">Cek Resi</a>
             </li>
+            
+            
           <?php else: ?>
             <li>
               <a class="text-gray-700 hover:text-teal-600 active:scale-95 transition duration-150"
@@ -59,6 +61,7 @@
               <a class="text-gray-700 hover:text-teal-600 active:scale-95 transition duration-150"
                 href="<?= base_url('laporan') ?>">Laporan</a>
             </li>
+            <li> <a href="<?= base_url('ulasan') ?>" class="py-4 px-2 text-gray-500 font-semibold hover:text-teal-600 transition duration-300">Ulasan</a></li>
           <?php endif; ?>
         </ul>
       </nav>

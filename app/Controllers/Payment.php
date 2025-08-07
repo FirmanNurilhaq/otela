@@ -43,8 +43,6 @@ class Payment extends BaseController
         // 3. Ambil data user
         $user = $userModel->find($pemesanan['id_user']);
 
-        // --- AWAL PERUBAHAN: Penyesuaian data untuk Midtrans ---
-
         // 4. Siapkan 'item_details' untuk Midtrans dari semua produk di keranjang
         $item_details_midtrans = [];
         foreach ($detailItems as $item) {
@@ -76,8 +74,6 @@ class Payment extends BaseController
                 'name'     => 'Diskon Promo',
             ];
         }
-
-        // --- AKHIR PERUBAHAN: Penyesuaian data untuk Midtrans ---
 
         // 7. Siapkan parameter untuk Midtrans
         $params = [
@@ -111,8 +107,6 @@ class Payment extends BaseController
         return view('payment/pay', $data);
     }
 
-    // ... Sisa fungsi tidak diubah, tetap sama seperti kode asli Anda ...
-    // ... (notifikasi, _kirimNotifikasiStokHabis, dll) ...
     public function notifikasi()
     {
         $notif = new \Midtrans\Notification();
@@ -128,7 +122,7 @@ class Payment extends BaseController
 
         if (!$pemesanan || $pemesanan['status'] !== 'pending') {
             log_message('warning', "[Midtrans Notif] Order ID {$orderId} not found or status is not 'pending'. Current status: " . ($pemesanan['status'] ?? 'N/A'));
-            return;
+            return; 
         }
 
         if ($transactionStatus == 'settlement' && $fraudStatus == 'accept') {
@@ -137,13 +131,15 @@ class Payment extends BaseController
             // 1. Ubah status pesanan menjadi 'produksi'
             $pemesananModel->update($pemesanan['id_pemesanan'], ['status' => 'produksi']);
 
-            // 2. Kurangi stok bahan DAN kirim notifikasi jika perlu
+            // 2. Siapkan semua model yang dibutuhkan
             $detailPemesananModel = new DetailPemesananModel();
             $resepModel = new ResepProdukModel();
             $stokModel = new StokModel();
+            $produkModel = new ProdukModel(); // Tambahkan model produk
 
             $detailItems = $detailPemesananModel->where('id_pemesanan', $pemesanan['id_pemesanan'])->findAll();
 
+            // Loop untuk kurangi stok bahan
             foreach ($detailItems as $item) {
                 $resep = $resepModel->where('id_produk', $item['id_produk'])->findAll();
                 foreach ($resep as $bahan) {
@@ -171,8 +167,19 @@ class Payment extends BaseController
                 }
             }
 
+            // --- AWAL PERUBAHAN: Loop untuk update jumlah terjual ---
+            foreach ($detailItems as $item) {
+                // Menggunakan query builder untuk increment nilai secara aman
+                // Parameter ketiga (false) mencegah CodeIgniter meng-escape query, sehingga operasi matematika bisa berjalan
+                $produkModel->where('id_produk', $item['id_produk'])
+                            ->set('jumlah_terjual', 'jumlah_terjual + ' . (int)$item['jumlah'], false)
+                            ->update();
+            }
+            // --- AKHIR PERUBAHAN ---
+
             // 3. Kirim email konfirmasi ke pelanggan
             $this->_sendProductionEmail($pemesanan);
+
         } else if ($transactionStatus == 'cancel' || $transactionStatus == 'deny' || $transactionStatus == 'expire') {
             $pemesananModel->update($pemesanan['id_pemesanan'], ['status' => 'dibatalkan']);
         }
