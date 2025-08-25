@@ -63,19 +63,14 @@
                         <h3 class="text-lg font-semibold text-gray-800 mb-1"><?= esc($p['nama_produk']) ?></h3>
                         <p class="text-sm text-gray-600">Ukuran: <?= esc($p['ukuran']) ?> gr</p>
                         <p class="text-sm text-gray-600 mb-2">Harga: <span class="font-bold text-teal-600">Rp<?= number_format($p['harga'], 0, ',', '.') ?></span></p>
-                        
+
                         <!-- Menampilkan Stok & Terjual -->
                         <div class="flex justify-between items-center text-xs text-gray-600 mb-3">
-                            <p>
-                                Stok:
-                                <span class="font-bold <?= $p['stok_tersedia'] > 0 ? 'text-green-600' : 'text-red-600' ?>">
-                                    <?= $p['stok_tersedia'] ?>
-                                </span>
-                            </p>
+
                             <?php if (isset($p['jumlah_terjual']) && $p['jumlah_terjual'] > 0): ?>
-                            <p class="font-semibold text-gray-500">
-                                🔥 Terjual <?= esc($p['jumlah_terjual']) ?>
-                            </p>
+                                <p class="font-semibold text-gray-500">
+                                    🔥 Terjual <?= esc($p['jumlah_terjual']) ?>
+                                </p>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -92,7 +87,7 @@
                                     <input type="number"
                                         name="jumlah"
                                         id="jumlah_<?= $p['id_produk'] ?>"
-                                        value="1"
+                                        value="0"
                                         min="1"
                                         max="<?= $p['stok_tersedia'] ?>"
                                         class="h-9 w-16 text-center border border-gray-300 rounded focus:ring-teal-500 focus:border-teal-500 text-sm [-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" />
