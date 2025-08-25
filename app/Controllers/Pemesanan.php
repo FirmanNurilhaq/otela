@@ -10,7 +10,7 @@ use App\Models\ProdukModel;
 use App\Models\UserModel;
 use App\Models\ResepProdukModel;
 use App\Models\StokModel;
-use App\Models\PromoModel; // 1. Pastikan PromoModel sudah ditambahkan
+use App\Models\PromoModel;
 
 class Pemesanan extends BaseController
 {
@@ -77,7 +77,7 @@ class Pemesanan extends BaseController
     public function index()
     {
         $produkModel = new ProdukModel();
-        $promoModel = new PromoModel(); // Ambil data promo
+        $promoModel = new PromoModel();
 
         $produkData = $produkModel->orderBy('bestseller', 'DESC')->findAll();
         $stokVirtual = $this->_getVirtualIngredientStock();
@@ -86,7 +86,7 @@ class Pemesanan extends BaseController
         }
         $data['produk'] = $produkData;
         $data['keranjang'] = session()->get('keranjang') ?? [];
-        $data['promoAktif'] = $promoModel->where('status', 'aktif')->first(); // Kirim promo aktif ke view
+        $data['promoAktif'] = $promoModel->where('status', 'aktif')->first();
 
         return view('pemesanan_form', $data);
     }
@@ -176,7 +176,7 @@ class Pemesanan extends BaseController
         $data = [
             'title'     => 'Keranjang Belanja',
             'keranjang' => session()->get('keranjang') ?? [],
-            'promoAktif' => $promoModel->where('status', 'aktif')->first() // Kirim promo aktif
+            'promoAktif' => $promoModel->where('status', 'aktif')->first()
         ];
         return view('keranjang', $data);
     }
@@ -211,12 +211,11 @@ class Pemesanan extends BaseController
             return redirect()->to('/pemesanan/keranjang')->with('error', $validasiStok);
         }
 
-        // --- AWAL PERUBAHAN LOGIKA PROMO DINAMIS ---
         $promoModel = new PromoModel();
         $promoAktif = $promoModel->where('status', 'aktif')->first();
 
         $totalHargaProduk = 0;
-        $totalKuantitas = 0;
+        $totalKuantitas = 0; // Tetap hitung total kuantitas
         foreach ($keranjang as $item) {
             $totalHargaProduk += $item['harga'] * $item['jumlah'];
             $totalKuantitas += $item['jumlah'];
@@ -227,8 +226,6 @@ class Pemesanan extends BaseController
 
         if ($promoAktif) {
             $idPromoDigunakan = $promoAktif['id_promo'];
-
-            // Cek tipe promo dan hitung diskon
             switch ($promoAktif['tipe_promo']) {
                 case 'kuantitas_kelipatan':
                     if ($totalKuantitas >= $promoAktif['syarat_kuantitas']) {
@@ -236,33 +233,46 @@ class Pemesanan extends BaseController
                         $jumlahDiskon = $kelipatan * $promoAktif['nilai_diskon'];
                     }
                     break;
-
                 case 'potongan_langsung':
                     $jumlahDiskon = $promoAktif['nilai_diskon'];
                     break;
             }
         }
 
+        // --- AWAL LOGIKA PERHITUNGAN ESTIMASI ---
+        $estimasiHari = 0;
+        if ($totalKuantitas <= 4) {
+            $estimasiHari = 2;
+        } elseif ($totalKuantitas >= 5 && $totalKuantitas <= 15) {
+            $estimasiHari = 3;
+        } elseif ($totalKuantitas >= 16 && $totalKuantitas <= 25) {
+            $estimasiHari = 4;
+        } else { // Otomatis untuk >= 26 pcs
+            $estimasiHari = 5;
+        }
+        $tanggalEstimasiSelesai = date('Y-m-d', strtotime("+{$estimasiHari} days"));
+        // --- AKHIR LOGIKA PERHITUNGAN ESTIMASI ---
+
         $ongkirBiaya = (float) $this->request->getPost('ongkir_biaya');
         $ongkirLayanan = $this->request->getPost('ongkir_layanan');
         $totalHargaKeseluruhan = ($totalHargaProduk - $jumlahDiskon) + $ongkirBiaya;
-        // --- AKHIR PERUBAHAN LOGIKA PROMO DINAMIS ---
 
         $pemesananModel = new PemesananModel();
         $dataPemesanan = [
-            'order_id'       => 'OTELA-' . time() . '-' . $user['id_user'],
-            'id_user'        => $user['id_user'],
-            'tanggal'        => date('Y-m-d H:i:s'),
-            'diskon'         => $jumlahDiskon,
-            'id_promo'       => $idPromoDigunakan,
-            'total_harga'    => $totalHargaKeseluruhan,
-            'status'         => 'pending',
-            'email_status'   => 'menunggu',
-            'Alamat'         => $this->request->getPost('alamat'),
-            'Provinsi'       => $this->request->getPost('provinsi_nama'),
-            'Kota'           => $this->request->getPost('kota_nama'),
-            'ongkir_biaya'   => $ongkirBiaya,
-            'ongkir_layanan' => $ongkirLayanan,
+            'order_id'         => 'OTELA-' . time() . '-' . $user['id_user'],
+            'id_user'          => $user['id_user'],
+            'tanggal'          => date('Y-m-d H:i:s'),
+            'diskon'           => $jumlahDiskon,
+            'id_promo'         => $idPromoDigunakan,
+            'total_harga'      => $totalHargaKeseluruhan,
+            'status'           => 'pending',
+            'email_status'     => 'menunggu',
+            'Alamat'           => $this->request->getPost('alamat'),
+            'Provinsi'         => $this->request->getPost('provinsi_nama'),
+            'Kota'             => $this->request->getPost('kota_nama'),
+            'ongkir_biaya'     => $ongkirBiaya,
+            'ongkir_layanan'   => $ongkirLayanan,
+            'estimasi_selesai' => $tanggalEstimasiSelesai, // Simpan tanggal estimasi
         ];
 
         $id_pemesanan = $pemesananModel->insert($dataPemesanan, true);
@@ -283,7 +293,7 @@ class Pemesanan extends BaseController
         return redirect()->to('/payment/bayar/' . $id_pemesanan);
     }
 
-    // ... (Sisa fungsi tidak diubah) ...
+    // ... Sisa controller tidak diubah ...
     public function getMaxJumlah($id_produk)
     {
         $stokVirtual = $this->_getVirtualIngredientStock();

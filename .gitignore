@@ -1,18 +1,35 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+# ==============================
+# CodeIgniter 4
+# ==============================
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Logs
+writable/logs/*
+!writable/logs/index.html
+!writable/logs/.htaccess
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+# Cache
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.htaccess
+
+# Sessions
+writable/session/*
+!writable/session/index.html
+!writable/session/.htaccess
+
+# Uploads (opsional)
+writable/uploads/*
+!writable/uploads/index.html
+!writable/uploads/.htaccess
+
+# ==============================
+# Composer Vendor
+# ==============================
 /vendor/
+
+# ==============================
+# Development
+# ==============================
+/.env
+/phpunit.xml
+/build/

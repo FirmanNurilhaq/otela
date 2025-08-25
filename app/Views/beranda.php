@@ -10,9 +10,8 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
 ?>
 
 <main class="max-w-screen-xl mx-auto px-4 py-6">
-  <h1 class="text-xl md:text-2xl font-semibold mb-6">Selamat Datang, <?= session('user')['nama_lengkap'] ?>!</h1>
+  <h1 class="text-xl md:text-2xl font-semibold mb-6">Selamat Datang, <?= esc(session('user')['nama_lengkap']) ?>!</h1>
 
-  <!-- BLOK UNTUK MENAMPILKAN PESAN NOTIFIKASI -->
   <?php if (session()->getFlashdata('success')): ?>
     <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg" role="alert">
       <?= session()->getFlashdata('success') ?>
@@ -25,8 +24,9 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
 
 
   <?php if (session('user')['role'] === 'pemilik'): ?>
-
-    <!-- Tabel Produksi (Untuk Admin) -->
+    <!-- ============================================= -->
+    <!-- TAMPILAN UNTUK PEMILIK                        -->
+    <!-- ============================================= -->
     <section class="mb-10">
       <h2 class="text-lg md:text-xl font-semibold mb-3">Pesanan dalam Produksi</h2>
       <div class="overflow-x-auto rounded shadow bg-white">
@@ -61,7 +61,7 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
                   </td>
                   <td class="px-4 py-3 align-top">Rp<?= number_format($row['total_harga'], 0, ',', '.') ?></td>
                   <td class="px-4 py-3 text-center align-top">
-                    <a href="<?= base_url('pemesanan/ubahStatus/' . $row['id_pemesanan'] . '/siap-kirim') ?>" class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400 text-white rounded hover:bg-yellow-500 transition">Siap Kirim</a>
+                    <a href="<?= site_url('pemesanan/ubahStatus/' . $row['id_pemesanan'] . '/siap-kirim') ?>" class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400 text-white rounded hover:bg-yellow-500 transition">Siap Kirim</a>
                   </td>
                 </tr>
               <?php endforeach; ?>
@@ -71,7 +71,6 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
       </div>
     </section>
 
-    <!-- Tabel Siap Kirim (Untuk Admin) -->
     <section>
       <h2 class="text-lg md:text-xl font-semibold mb-3">Antrian Pengiriman</h2>
       <div class="overflow-x-auto rounded shadow bg-white">
@@ -122,9 +121,11 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
     </section>
 
   <?php elseif (session('user')['role'] === 'pelanggan'): ?>
-    <!-- TAMPILAN BARU UNTUK PELANGGAN -->
+    <!-- ============================================= -->
+    <!-- TAMPILAN UNTUK PELANGGAN                      -->
+    <!-- ============================================= -->
     <div class="mb-6 text-right">
-      <a href="<?= base_url('pemesanan') ?>"
+      <a href="<?= site_url('pemesanan') ?>"
         class="inline-block px-5 py-2.5 bg-teal-600 text-white text-sm font-medium rounded-lg shadow-sm transition hover:scale-105 hover:shadow-md hover:bg-teal-700">
         + Buat Pesanan Baru
       </a>
@@ -144,9 +145,24 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
           </thead>
           <tbody class="divide-y divide-gray-100">
             <?php if (empty($pesanan_berjalan)): ?>
+              <!-- AWAL PERUBAHAN: Tampilan untuk pelanggan baru -->
               <tr>
-                <td colspan="4" class="text-center py-6 text-gray-500">Anda tidak memiliki pesanan yang sedang berjalan.</td>
+                <td colspan="4" class="text-center p-8 md:p-12">
+                  <div class="max-w-lg mx-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-16 w-16 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <h3 class="mt-4 text-2xl font-bold text-gray-800">Rasakan Renyahnya Keripik Khas Sumedang!</h3>
+                    <p class="mt-2 text-gray-600">
+                      Selamat datang di Otela! Kami adalah UMKM lokal dari Sumedang yang menghadirkan keripik singkong premium dengan aneka rasa yang menggugah selera. Setiap gigitan adalah perpaduan sempurna antara renyah dan bumbu khas yang akan membuatmu ketagihan.
+                    </p>
+                    <p class="mt-4 font-medium text-gray-700">
+                      Siap untuk petualangan rasa? Klik tombol <strong class="text-teal-600">'+ Buat Pesanan Baru'</strong> di atas untuk mulai memilih keripik favoritmu!
+                    </p>
+                  </div>
+                </td>
               </tr>
+              <!-- AKHIR PERUBAHAN -->
             <?php else: ?>
               <?php foreach ($pesanan_berjalan as $row): ?>
                 <tr class="hover:bg-gray-50">
@@ -184,6 +200,13 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
                     <span class="px-3 py-1 text-xs font-medium rounded-full <?= $statusClass ?>">
                       <?= ucwords(esc($row['status'])) ?>
                     </span>
+
+                    <?php if (!empty($row['estimasi_selesai'])): ?>
+                      <p class="text-xs text-gray-500 mt-2 italic">
+                        Estimasi selesai:<br>
+                        <span class="font-semibold"><?= date('d M Y', strtotime($row['estimasi_selesai'])) ?></span>
+                      </p>
+                    <?php endif; ?>
                   </td>
                 </tr>
               <?php endforeach; ?>
@@ -195,7 +218,7 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
   <?php endif; ?>
 </main>
 
-<!-- Modal Selamat Datang -->
+<!-- ... Sisa file (Modal, Style, Script) tidak diubah ... -->
 <?php if (session()->getFlashdata('show_welcome_modal')): ?>
   <div id="welcomeModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
     <div class="bg-white rounded-lg shadow-xl p-8 w-full max-w-md text-center transform transition-all scale-95 opacity-0 animate-fade-in-up">
@@ -209,8 +232,7 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
   </div>
 <?php endif; ?>
 
-<!-- --- AWAL MODAL PROMO HEBOH (DINAMIS) --- -->
-<?php if (session('user')['role'] === 'pelanggan' && !session()->has('promo_modal_shown') && isset($promoAktif) && $promoAktif): ?>
+<?php if (session()->has('user') && session('user')['role'] === 'pelanggan' && !session()->has('promo_modal_shown') && isset($promoAktif) && $promoAktif): ?>
   <div id="promoModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[100] opacity-0 transition-opacity duration-300">
     <div class="relative bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md text-center transform scale-95 transition-all duration-300 overflow-hidden">
       <div id="confetti-container" class="absolute top-0 left-0 w-full h-full pointer-events-none"></div>
@@ -237,13 +259,10 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
   <?php session()->set('promo_modal_shown', true); // Tandai bahwa modal sudah ditampilkan 
   ?>
 <?php endif; ?>
-<!-- --- AKHIR MODAL PROMO HEBOH --- -->
-
-<!-- Modal Input Resi -->
 <div id="resiModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
   <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-md">
     <h3 class="text-xl font-semibold mb-4">Input Nomor Resi</h3>
-    <form id="resiForm" action="<?= base_url('pemesanan/selesaikanPesanan') ?>" method="post">
+    <form id="resiForm" action="<?= site_url('pemesanan/selesaikanPesanan') ?>" method="post">
       <?= csrf_field() ?>
       <input type="hidden" name="id_pemesanan" id="modal_id_pemesanan">
       <input type="hidden" name="kurir" id="modal_kurir_hidden">
@@ -263,7 +282,6 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
   </div>
 </div>
 
-<!-- --- AWAL CSS & SCRIPT BARU --- -->
 <style>
   @keyframes fade-in-up {
     from {
@@ -412,6 +430,4 @@ $promoAktif = $promoAktif ?? null; // Pastikan variabel promoAktif ada
     }
   });
 </script>
-<!-- --- AKHIR CSS & SCRIPT BARU --- -->
-
 <?= $this->endSection() ?>

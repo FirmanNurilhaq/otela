@@ -74,6 +74,6 @@ class Stok extends BaseController
         } else {
             session()->setFlashdata('error', 'Gagal memperbarui stok bahan.');
         }
-        return redirect()->to(base_url('stok_bahan'));
+        return redirect()->to(base_url('stok'));
     }
 }

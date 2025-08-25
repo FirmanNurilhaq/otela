@@ -20,6 +20,7 @@ class PemesananModel extends Model
         'Kota',
         'ongkir_biaya',
         'ongkir_layanan',
+        'estimasi_selesai',
         'diskon',
         'id_promo'
     ];

@@ -19,20 +19,38 @@ class Ulasan extends BaseController
     // Menampilkan halaman daftar ulasan (hanya untuk pemilik)
     public function index()
     {
-        if (!session()->has('user') || session('user')['role'] !== 'pemilik') {
+        // Pastikan ada user yang login
+        if (!session()->has('user')) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk melihat halaman ini.');
+        }
+
+        $role = session('user')['role'];
+        $title = '';
+
+        // Membangun query dasar
+        $ulasanQuery = $this->ulasanModel
+            ->select('ulasan.*, user.nama_lengkap, riwayat_transaksi.order_id')
+            ->join('user', 'user.id_user = ulasan.id_user', 'left')
+            ->join('riwayat_transaksi', 'riwayat_transaksi.id_riwayat = ulasan.id_riwayat', 'left');
+
+        if ($role === 'pemilik') {
+            // Pemilik bisa melihat semua ulasan
+            $title = 'Daftar Semua Ulasan Pelanggan';
+            // Tidak ada filter tambahan
+        } elseif ($role === 'pelanggan') {
+            // Pelanggan hanya bisa melihat ulasan dengan rating 5
+            $title = 'Ulasan Terbaik dari Pelanggan';
+            $ulasanQuery->where('ulasan.rating', 5);
+        } else {
+            // Jika ada role lain yang tidak diizinkan
             return redirect()->to('/beranda')->with('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
         }
 
         $data = [
-            'title' => 'Daftar Ulasan Pelanggan',
-            'ulasan' => $this->ulasanModel
-                ->select('ulasan.*, user.nama_lengkap, riwayat_transaksi.order_id')
-                ->join('user', 'user.id_user = ulasan.id_user', 'left')
-                ->join('riwayat_transaksi', 'riwayat_transaksi.id_riwayat = ulasan.id_riwayat', 'left')
-                ->orderBy('ulasan.created_at', 'DESC')
-                ->findAll()
+            'title' => $title,
+            'ulasan' => $ulasanQuery->orderBy('ulasan.created_at', 'DESC')->findAll()
         ];
-        
+
         return view('ulasan/index', $data);
     }
 
@@ -73,7 +91,7 @@ class Ulasan extends BaseController
         }
 
         $id_riwayat = $this->request->getPost('id_riwayat');
-        
+
         $rules = [
             'rating' => 'required|in_list[1,2,3,4,5]',
             'komentar' => 'required|max_length[1000]'

@@ -12,8 +12,7 @@
       <div
         id="popup-alert"
         role="alert"
-        class="fixed top-6 left-1/2 -translate-x-1/2 z-50 max-w-sm w-full rounded-md border border-gray-300 bg-white p-4 shadow-lg transition-opacity duration-500"
-      >
+        class="fixed top-6 left-1/2 -translate-x-1/2 z-50 max-w-sm w-full rounded-md border border-gray-300 bg-white p-4 shadow-lg transition-opacity duration-500">
         <div class="flex items-start gap-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
             stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-green-600">
@@ -41,13 +40,12 @@
     <!-- Tambah Bahan Button -->
     <div class="mb-6">
       <div class="flex justify-end mb-4">
-       <a href="<?= base_url('stok/tambah') ?>"
-        class="inline-flex items-center gap-2 rounded-md bg-teal-600 px-6 py-2 text-sm font-medium text-white shadow-sm transition hover:scale-105 hover:shadow-md hover:bg-teal-700"
-        >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <a href="<?= base_url('stok/tambah') ?>"
+          class="inline-flex items-center gap-2 rounded-md bg-teal-600 px-6 py-2 text-sm font-medium text-white shadow-sm transition hover:scale-105 hover:shadow-md hover:bg-teal-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-        </svg>
-        Tambah Bahan Baru
+          </svg>
+          Tambah Bahan Baru
         </a>
 
       </div>
@@ -58,7 +56,7 @@
           <thead class="bg-gray-100 text-gray-700">
             <tr>
               <th class="px-4 py-2">Nama Bahan</th>
-              <th class="px-4 py-2">Jumlah</th>
+              <th class="px-4 py-2">Jumlah (Gr)</th>
               <th class="px-4 py-2">Status</th>
               <th class="px-4 py-2">Aksi</th>
             </tr>
@@ -82,8 +80,7 @@
                 <td class="px-4 py-2">
                   <a
                     href="<?= base_url('stok/restock') ?>"
-                    class="inline-flex items-center gap-2 rounded-sm border border-gray-600 px-4 py-2 text-sm font-medium text-gray-600 transition hover:scale-105 hover:shadow-md focus:ring-2 focus:outline-none"
-                  >
+                    class="inline-flex items-center gap-2 rounded-sm border border-gray-600 px-4 py-2 text-sm font-medium text-gray-600 transition hover:scale-105 hover:shadow-md focus:ring-2 focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M4 4v6h6M20 20v-6h-6M4 10a8 8 0 0114.31-5.34M20 14a8 8 0 01-14.31 5.34" />

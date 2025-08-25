@@ -60,7 +60,7 @@
           </div>
 
           <div class="flex flex-col items-center">
-            <label for="jumlah" class="mb-1 text-sm font-medium text-gray-700">Tambahkan Jumlah</label>
+            <label for="jumlah" class="mb-1 text-sm font-medium text-gray-700">Tambahkan Jumlah (Gr)</label>
             <div class="flex items-center gap-1">
               <button type="button" onclick="updateJumlah(-1)"
                 class="size-10 leading-10 text-gray-600 border border-gray-400 rounded hover:opacity-75">

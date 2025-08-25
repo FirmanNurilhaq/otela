@@ -66,6 +66,28 @@
                     </table>
                 </div>
 
+                <!-- AWAL PERUBAHAN: Ringkasan Belanja Atas -->
+                <div class="p-6 border-t border-b bg-gray-50">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Ringkasan Belanja</h3>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm text-gray-600">
+                            <p>Subtotal Produk</p>
+                            <p>Rp<?= number_format($total_harga_produk, 0, ',', '.') ?></p>
+                        </div>
+                        <?php if ($jumlah_diskon > 0): ?>
+                            <div class="flex justify-between text-sm text-green-600">
+                                <p>Diskon</p>
+                                <p>- Rp<?= number_format($jumlah_diskon, 0, ',', '.') ?></p>
+                            </div>
+                        <?php endif; ?>
+                        <div class="flex justify-between text-base font-bold text-gray-900 pt-2 border-t mt-2">
+                            <p>Total Belanja</p>
+                            <p>Rp<?= number_format($total_setelah_diskon, 0, ',', '.') ?></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- AKHIR PERUBAHAN -->
+
                 <div class="px-6 pt-6">
                     <?php if (isset($promoAktif) && $promoAktif): ?>
                         <?php
@@ -109,18 +131,10 @@
                                 <option value="">-- Pilih Kota --</option>
                             </select>
                         </div>
-                        <div>
-                            <label for="courier" class="block text-sm font-medium text-gray-700">Kurir</label>
-                            <select id="courier" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm">
-                                <option value="">-- Pilih Kurir --</option>
-                                <option value="jne">JNE</option>
-                                <option value="pos">POS Indonesia</option>
-                            </select>
-                        </div>
                     </div>
 
                     <button type="button" id="btn-cek-ongkir" class="mt-4 w-auto inline-flex items-center gap-2 justify-center px-4 py-2 text-sm font-medium text-white bg-teal-600 rounded-md shadow-sm transition hover:scale-105 hover:shadow-md hover:bg-teal-700">
-                        Cek Ongkos Kirim
+                        Cek Ongkos Kirim (JNE)
                     </button>
 
                     <div id="hasil-ongkir" class="mt-4 space-y-2"></div>
@@ -131,17 +145,16 @@
                                 <p>Subtotal Produk</p>
                                 <p>Rp<?= number_format($total_harga_produk, 0, ',', '.') ?></p>
                             </div>
-
+                            <div class="flex justify-between text-base font-medium text-gray-700">
+                                <p>Ongkos Kirim</p>
+                                <p id="ongkir-text">Rp 0</p>
+                            </div>
                             <?php if ($jumlah_diskon > 0): ?>
                                 <div class="flex justify-between text-base font-medium text-green-600">
                                     <p>Diskon</p>
                                     <p>- Rp<?= number_format($jumlah_diskon, 0, ',', '.') ?></p>
                                 </div>
                             <?php endif; ?>
-                            <div class="flex justify-between text-base font-medium text-gray-700">
-                                <p>Ongkos Kirim</p>
-                                <p id="ongkir-text">Rp 0</p>
-                            </div>
                             <div class="flex justify-between text-lg font-bold text-gray-900">
                                 <p>Grand Total</p>
                                 <p id="grand-total-text">Rp<?= number_format($total_setelah_diskon, 0, ',', '.') ?></p>
@@ -168,8 +181,6 @@
     </div>
 </main>
 
-
-
 <script>
     document.addEventListener('DOMContentLoaded', async function() {
         <?php if (!empty($keranjang)): ?>
@@ -180,13 +191,10 @@
 
             const selectProvince = document.getElementById('province');
             const selectDestination = document.getElementById('destination');
-            const selectCourier = document.getElementById('courier');
             const inputAlamat = document.getElementById('alamat');
 
-            // --- AWAL PERUBAHAN: Gunakan variabel PHP yang sudah dihitung ---
             const totalSetelahDiskon = <?= $total_setelah_diskon ?? 0 ?>;
             const totalBerat = <?= $total_berat ?? 0 ?>;
-            // --- AKHIR PERUBAHAN ---
 
             const formatUang = (angka) => new Intl.NumberFormat('id-ID', {
                 style: 'currency',
@@ -194,15 +202,10 @@
                 minimumFractionDigits: 0
             }).format(angka);
 
-            // ... Sisa script tidak diubah (fungsi AJAX, loadProvinsi, dll) ...
-            // ... Namun, fungsi yang update total akan diubah ...
-
             hasilContainer.addEventListener('change', function(e) {
                 if (e.target.name === 'service') {
                     const biayaOngkir = parseInt(e.target.dataset.cost);
                     const namaLayanan = e.target.dataset.service;
-
-                    // --- PERUBAHAN: Kalkulasi grand total memperhitungkan total setelah diskon ---
                     const grandTotal = totalSetelahDiskon + biayaOngkir;
 
                     document.getElementById('ongkir-text').textContent = formatUang(biayaOngkir);
@@ -220,14 +223,12 @@
             function resetOngkir() {
                 hasilContainer.innerHTML = '';
                 document.getElementById('ongkir-text').textContent = 'Rp 0';
-                // --- PERUBAHAN: Saat reset, Grand Total kembali ke total setelah diskon ---
                 document.getElementById('grand-total-text').textContent = formatUang(totalSetelahDiskon);
                 document.getElementById('ongkir_biaya').value = 0;
                 document.getElementById('ongkir_layanan').value = '';
                 btnBayar.disabled = true;
             }
 
-            // ... Sisa script lainnya (seperti loadProvinces, fetchWithCsrf, dll.) tetap sama ...
             function getSecureSiteUrl(path) {
                 let baseUrl = '<?= rtrim(base_url(), '/') ?>';
                 if (baseUrl.startsWith('http://')) {
@@ -350,16 +351,16 @@
                 resetOngkir();
             });
 
-            selectCourier.addEventListener('change', resetOngkir);
-
             btnCekOngkir.addEventListener('click', async function() {
-                const courier = selectCourier.value;
+                const courier = 'jne';
                 const destinationId = selectDestination.value;
                 const destinationName = selectDestination.options[selectDestination.selectedIndex].text;
-                if (!selectProvince.value || !destinationId || !courier) {
-                    alert('Silakan pilih Provinsi, Kota Tujuan, dan Kurir.');
+
+                if (!selectProvince.value || !destinationId) {
+                    alert('Silakan pilih Provinsi dan Kota Tujuan.');
                     return;
                 }
+
                 hasilContainer.innerHTML = '<p class="text-gray-500">Mencari ongkir...</p>';
                 btnBayar.disabled = true;
                 const formData = new FormData();
@@ -375,7 +376,7 @@
                     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                     const data = await response.json();
                     if (data.status === 200 && Array.isArray(data.data) && data.data.length > 0) {
-                        let html = '<p class="font-bold">Pilih jenis layanan:</p>';
+                        let html = '<p class="font-bold">Pilih jenis layanan JNE:</p>';
                         data.data.forEach(cost => {
                             const harga = cost.cost;
                             const etd = cost.etd;
