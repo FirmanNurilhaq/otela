@@ -12,6 +12,8 @@ use App\Models\ResepProdukModel;
 use App\Models\StokModel;
 use App\Models\PromoModel;
 
+
+//test
 class Pemesanan extends BaseController
 {
     private $binderByteApiKey;
@@ -174,7 +176,7 @@ class Pemesanan extends BaseController
     {
         $promoModel = new PromoModel();
         $data = [
-            'title'     => 'Keranjang Belanja',
+            'title' => 'Keranjang Belanja',
             'keranjang' => session()->get('keranjang') ?? [],
             'promoAktif' => $promoModel->where('status', 'aktif')->first()
         ];
@@ -186,10 +188,10 @@ class Pemesanan extends BaseController
         // 1. Validasi Input Form Checkout
         $validation = \Config\Services::validation();
         $validation->setRules([
-            'alamat'         => 'required|string|max_length[255]',
-            'provinsi_nama'  => 'required|string',
-            'kota_nama'      => 'required|string',
-            'ongkir_biaya'   => 'required|numeric',
+            'alamat' => 'required|string|max_length[255]',
+            'provinsi_nama' => 'required|string',
+            'kota_nama' => 'required|string',
+            'ongkir_biaya' => 'required|numeric',
             'ongkir_layanan' => 'required|string',
         ]);
 
@@ -259,19 +261,19 @@ class Pemesanan extends BaseController
 
         $pemesananModel = new PemesananModel();
         $dataPemesanan = [
-            'order_id'         => 'OTELA-' . time() . '-' . $user['id_user'],
-            'id_user'          => $user['id_user'],
-            'tanggal'          => date('Y-m-d H:i:s'),
-            'diskon'           => $jumlahDiskon,
-            'id_promo'         => $idPromoDigunakan,
-            'total_harga'      => $totalHargaKeseluruhan,
-            'status'           => 'pending',
-            'email_status'     => 'menunggu',
-            'Alamat'           => $this->request->getPost('alamat'),
-            'Provinsi'         => $this->request->getPost('provinsi_nama'),
-            'Kota'             => $this->request->getPost('kota_nama'),
-            'ongkir_biaya'     => $ongkirBiaya,
-            'ongkir_layanan'   => $ongkirLayanan,
+            'order_id' => 'OTELA-' . time() . '-' . $user['id_user'],
+            'id_user' => $user['id_user'],
+            'tanggal' => date('Y-m-d H:i:s'),
+            'diskon' => $jumlahDiskon,
+            'id_promo' => $idPromoDigunakan,
+            'total_harga' => $totalHargaKeseluruhan,
+            'status' => 'pending',
+            'email_status' => 'menunggu',
+            'Alamat' => $this->request->getPost('alamat'),
+            'Provinsi' => $this->request->getPost('provinsi_nama'),
+            'Kota' => $this->request->getPost('kota_nama'),
+            'ongkir_biaya' => $ongkirBiaya,
+            'ongkir_layanan' => $ongkirLayanan,
             'estimasi_selesai' => $tanggalEstimasiSelesai, // Simpan tanggal estimasi
         ];
 
@@ -280,11 +282,11 @@ class Pemesanan extends BaseController
         $detailPemesananModel = new DetailPemesananModel();
         foreach ($keranjang as $item) {
             $dataDetail = [
-                'id_pemesanan'     => $id_pemesanan,
-                'id_produk'        => $item['id_produk'],
-                'jumlah'           => $item['jumlah'],
+                'id_pemesanan' => $id_pemesanan,
+                'id_produk' => $item['id_produk'],
+                'jumlah' => $item['jumlah'],
                 'harga_saat_pesan' => $item['harga'],
-                'subtotal'         => $item['harga'] * $item['jumlah'],
+                'subtotal' => $item['harga'] * $item['jumlah'],
             ];
             $detailPemesananModel->insert($dataDetail);
         }
@@ -368,14 +370,14 @@ class Pemesanan extends BaseController
 
             $dataRiwayat = [
                 'id_pemesanan_asli' => $pesanan['id_pemesanan'],
-                'order_id'          => $pesanan['order_id'],
-                'id_user'           => $pesanan['id_user'],
-                'tanggal_pesan'     => $pesanan['tanggal'],
-                'detail_items'      => json_encode($itemsForJson),
-                'total_harga'       => $pesanan['total_harga'],
-                'resi'              => $nomor_resi,
-                'kurir'             => $kurir,
-                'tanggal_selesai'   => date('Y-m-d H:i:s')
+                'order_id' => $pesanan['order_id'],
+                'id_user' => $pesanan['id_user'],
+                'tanggal_pesan' => $pesanan['tanggal'],
+                'detail_items' => json_encode($itemsForJson),
+                'total_harga' => $pesanan['total_harga'],
+                'resi' => $nomor_resi,
+                'kurir' => $kurir,
+                'tanggal_selesai' => date('Y-m-d H:i:s')
             ];
 
             $riwayatTransaksiModel->insert($dataRiwayat);
@@ -401,7 +403,8 @@ class Pemesanan extends BaseController
     {
         $userModel = new UserModel();
         $user = $userModel->find($dataRiwayat['id_user']);
-        if (!$user) return;
+        if (!$user)
+            return;
 
         $apiKey = getenv('BREVO_API_KEY');
         if (empty($apiKey)) {
@@ -549,8 +552,8 @@ class Pemesanan extends BaseController
         $validation->setRules([
             'destination_id' => 'required|numeric',
             'destination_name' => 'required|string',
-            'weight'           => 'required|numeric',
-            'courier'          => 'required|string'
+            'weight' => 'required|numeric',
+            'courier' => 'required|string'
         ]);
         if (!$validation->withRequest($this->request)->run()) {
             return $this->response->setJSON(['status' => 400, 'message' => 'Input tidak valid.']);
@@ -576,10 +579,10 @@ class Pemesanan extends BaseController
                     'Content-Type' => 'application/x-www-form-urlencoded',
                 ],
                 'form_params' => [
-                    'origin'      => $originId,
+                    'origin' => $originId,
                     'destination' => $destinationId,
-                    'weight'      => $weightInKg,
-                    'courier'     => $courier
+                    'weight' => $weightInKg,
+                    'courier' => $courier
                 ],
                 'timeout' => 20,
                 'verify' => false
